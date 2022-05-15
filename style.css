@@ -1,34 +1,32 @@
-zalsteksts {
-color: green;
-border-style: dashed;
+#krasa {
+color: aqua;
 }
 
-#zils123 {
-color: blue;
-font-size: large;
+.raamis {
+display: flex;
+width: 50%;
+margin-right: 25%;
+margin-left: auto;
+border-style: groove ;
 }
 
-.omlete {
-border-style:double;
-border-color: blueviolet;
-}
-
-#ipassramitis {
-border-style: dashed;
-border-color: black;
-margin: 20px;
+.kolonna {
+flex: 40%;
+margin 50px;
 padding: 20px;
-width: 80%;
-display: grid;
-grid-template-columns: 40% 40%;
+background-color: darkgray;
+}
+
+.kolonna2 {
+flex: 60%;
+padding: 20px;
+background-color: darkcyan;
 }
 
 ul li {
     font-style: italic;
 }
-ol li {
-    text-decoration: underline;
-}
+
 body {
     background-color: brown;
 }
